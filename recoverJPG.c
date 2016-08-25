@@ -1,7 +1,7 @@
 
 /**
- * recoverJPEG.c
- * Recovers JPEGs from a forensic image.
+ * recoverJPG.c
+ * Recovers JPGs from a forensic image.
  */
  
 #include <stdio.h>
@@ -69,5 +69,5 @@ int main(int argc, char* argv[])
     
     fclose(img);
     fclose(file);
-	return 0; 
+    return 0; 
 }
